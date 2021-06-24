@@ -299,18 +299,27 @@ footer {
 	 
  }
 
- @media screen and (min-width:769px) {
+ @media screen and (min-width:768px) {
 	.first-item{
 		margin-left: 4rem;
+		background: #000000;		
+		border-radius: 26px;
+		width: 115px;
 	}
 	.sec-item{
 		margin-left: 7rem;
+		background: #000000;		
+		border-radius: 26px;
+		width: 115px;
 	}
 	.third-item{
 		margin-left: 7rem;
 	} 	 
 	.header{
 		text-align: center;
+		background: #000000;		
+		border-radius: 26px;
+		width: 115px;
 	 }
 	 #content-text{
 		 text-align: left;
