@@ -314,12 +314,12 @@ footer {
 	}
 	.third-item{
 		margin-left: 7rem;
-	} 	 
-	.header{
-		text-align: center;
 		background: #000000;		
 		border-radius: 26px;
 		width: 115px;
+	} 	 
+	.header{
+		text-align: center;		
 	 }
 	 #content-text{
 		 text-align: left;
