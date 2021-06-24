@@ -300,13 +300,13 @@ footer {
  }
 
  @media screen and (min-width:769px) {
-	.conatct-md{
+	.first-item{
 		margin-left: 4rem;
 	}
-	.blog-md{
+	.sec-item{
 		margin-left: 7rem;
 	}
-	.about-md{
+	.third-item{
 		margin-left: 7rem;
 	} 	 
 	.header{
