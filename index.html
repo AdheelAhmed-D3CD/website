@@ -7,36 +7,40 @@
         <title>Home</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="./css files/home.css">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Ropa+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-md fixed-top navbar-dark home-bar">
-            <a class="navbar-brand">TechSias</a>
+            <a href="#here" class="navbar-brand " style="font-family: Righteous;" >TechSias</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
             <span class="navbar-toggler-icon nav-tog-icon"></span>
             </button>
-            <div class="collapse navbar-collapse"  id="navbarNavDropdown">
+            <div class="collapse navbar-collapse "  id="navbarNavDropdown">
                 <ul class="navbar-nav text-center home-nav-style">
-                    <li class="nav-item first-item">
-                        <a class="nav-link" href="./Inner-Pages/contact.html">Contact Us<span class="sr-only">(current)</span></a>
+                  <!--  <li class="nav-item first-item ">
+                        <a class="nav-link" id="link-color-shifter" href="./index.html">Home</a>
+                    </li>-->
+                    <li class="nav-item  sec-item">
+                        <a class="nav-link " id="link-color-shifter" href="./Inner-Pages/event.html">Blog</a>
                     </li>
-                    <li class="nav-item sec-item">
-                        <a class="nav-link" href="./Inner-Pages/event.html">Blog</a>
+                    <li class="nav-item third-item " >
+                        <a class="nav-link" id="link-color-shifter" href="./Inner-Pages/about.html">About Us</a>
                     </li>
-                    <li class="nav-item third-item" >
-                        <a class="nav-link" href="#">About Us</a>
+                    <li class="nav-item fourth-item " >
+                        <a class="nav-link" id="link-color-shifter" href="./Inner-Pages/contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid">
+        <div id="here" class="container-fluid ">
             <div class="row">
                 <div class="main-content">
-                    <div class="home-main-head col-6 col-sm-12">
+                    <div class="home-main-head col-6 col-sm-12" >
                         <h1>
                             Where Enthusiasm Meets<br>
                             <div class="red-head">Opportunity</div>
                         </h1>
-                        <a href=""  >
+                        <a href="./Inner-Pages/join.html"  >
                             <div class="btn join-button-holder"style="margin-left:0.1%; text-decoration: none;">Join Now</div>
                         </a>
                     </div>
@@ -72,18 +76,18 @@
                     </a>
                     <div class="col-12 d-flex parent-div col-sm-12 justify-content-center align-items-center" style=" background: url(./Assets/Images/bg.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
                         <div class="child-div d-flex embed-responsive embed-responsive-16by9 col-12 col-lg-7" style="height: auto;padding: 4rem; ">
-                            <video id="vid" src="./Assets/Images/test.mp4" autoplay loop ></video>
+                            <video id="vid" src="./Assets/Images/test.mp4" autoplay controls loop ></video>
                         </div>
                     </div>
                 </div>
                 <div class="third-ui col-12" >
                     <div class="showCase-event-Holder  col-sm-12 justify-content-sm-center " style="padding: 2rem;  margin-top: 2rem;">
                         <div class="col-12 d-md-flex rounded rounded" style="background-color: rgba(66, 79, 113, 0.5);  color: white;  padding: 2rem; min-height: 15rem; margin-right: 2rem; ">
-                            <div class="img-holder col-12  col-md-5 col-lg-6  rounded " >
-                                <img id="event-img1" src="./Assets/Images/tech.svg" class="img-fluid rounded"  alt="img"/>
+                            <div class="img-holder col-12  col-md-5 col-lg-6 my-auto rounded">
+                                <img id="event-img1" src="./Assets/Images/tech.svg" class="img-fluid"  alt="img"/>
                             </div>
-                            <div class="header " style="margin-top: 2rem;">
-                                <p id="content-text" class="col-md-10"  >TechSias is a tech community lead by the
+                            <div class="header my-auto ">
+                                <p id="content-text-home" class="col-md-10 "  >TechSias is a tech community lead by the
                                     students to bring a vibrant knowledge to set
                                     the environment for a better future.
                                 </p>
@@ -91,9 +95,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-         </div>
-            <div class="col-12 nopadding">
+            </div></div>
+            <div class="col-12 nopadding" >
                 <footer class="mainfooter " role="contentinfo">
                     <div class="footer-middle">
                         <div class="container">
@@ -102,8 +105,7 @@
                                     <div class="footer-pad">
                                         <h4>Explore</h4>
                                         <ul class="list-unstyled">
-                                            <li><a class="left" href="#"></a></li>
-                                            <li><a class="left" href="#">Events</a></li>
+                                            <li><a class="left" href="./Inner-Pages/upcoming-events.html">Events</a></li>
                                             <li><a class="left" href="#">Privacy Policy</a></li>
                                             <li><a class="left" href="#">Help</a></li>
                                             <li><a class="left" href="#">Support</a></li>
@@ -112,10 +114,10 @@
                                 </div>
                                 <div class="col-md-6 text-center">
                                     <h4>Follow Us</h4>
-                                    <ul class="social-network social-circle">
-                                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" class="icoYoutube" title="Youtube"><i class="fa fa-Youtube"></i></a></li>
+                                    <ul class="social-network ">
+                                        <li><a href=""><img src="../Assets/Images/instagram.png" class="social-icons" width="34px" alt=""> </a></li>
+                                        <li><a href=""><img src="../Assets/Images/linkedin.png" class="social-icons" width="34px" alt=""></a></li>
+                                        <li><a href=""><img src="../Assets/Images/youtube.png" class="social-icons" width="34px" alt=""></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,6 +130,8 @@
                     </div>
                 </footer>
             </div>
+        
+     
         <script>
             document.getElementById('vid').play();
         </script>
